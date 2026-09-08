@@ -29,9 +29,6 @@ KEYWORDS = [
 
 Exclusive
 KEYWORDS = [
-    "Foundational",
     "Foundation",
-    "Agentic",
-    "Agent",
 ]
 
