@@ -16,8 +16,7 @@ Appends a dict (category, session_number, title, url, detail_text) to rows.
 It repeats this per category, collects everything into all_rows, then builds one big DataFrame (df) — one row per session, across all 28 categories. A 0.5s sleep between requests avoids hammering the server.
 
 That's it — it's a scrape-and-flatten loop, not doing any filtering itself (that happens after, in step 3 of the full script).
-
-# ---- 3. Keyword filter ----
+Inclusive
 KEYWORDS = [
     "Foundational",
     "AI",
@@ -27,3 +26,12 @@ KEYWORDS = [
     "Huntsville",
     "Large Earth Model",
 ]
+
+Exclusive
+KEYWORDS = [
+    "Foundational",
+    "Foundation",
+    "Agentic",
+    "Agent",
+]
+
