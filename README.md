@@ -32,3 +32,5 @@ KEYWORDS = [
     "Foundation",
 ]
 
+## Adapted presentation hunter scraping titles and abstracts for keywords.
+Caches the entire program for the search, exports a csv of all hits.
